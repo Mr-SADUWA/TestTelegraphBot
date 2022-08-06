@@ -1,5 +1,5 @@
 {
-    "name": "Telegraph Bot",
+    "name": "Telegraph Uploader Bot",
     "description": "A bot that can upload photos and video to telegraph.",
     "logo": "https://telegra.ph/file/df88cd27fc2221d3393be.jpg",
     "keywords": [
@@ -8,7 +8,7 @@
         "Telegram Bot",
     ],
     "website": " ",
-    "repository": "https://github.com/lakshan17/NewTelegraphBot",
+    "repository": "https://github.com/Mr-SADUWA/TestTelegraphBot",
     "success_url": " ",
     "env": {
         "BOT_TOKEN": {
