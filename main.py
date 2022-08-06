@@ -48,11 +48,12 @@ async def telegraph(client, message):
         file_name="root/downloads/",
     )
     try:
+        msg = await message.reply("📤 Uploading To Telegram...")
         response = upload_file(download_location)
     except Exception as document:
         await message.reply(message, text=document)
     else:
-        await message.reply(
+        await msg.edit_text(
             f"**Uploaded To Telegraph!\n\n👉 https://telegra.ph{response[0]}**",
             disable_web_page_preview=True,
         )
