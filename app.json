@@ -8,7 +8,7 @@
         "Uploader",
         "Telegram Bot",
     ],
-    "repository": "https://github.com/Mr-SADUWA/TestTelegraphBot,
+    "repository": "https://github.com/Mr-SADUWA/TestTelegraphBot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
